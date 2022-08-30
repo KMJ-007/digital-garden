@@ -14,15 +14,14 @@ if (currentTheme) {
 
 const switchTheme = (e) => {
   if (e.target.checked) {
-   
-    document.documentElement.setAttribute('saved-theme', 'light')
-    localStorage.setItem('theme', 'light')
-    syntaxTheme.href = '{{ $lightSyntax.Permalink }}';
-  }
-  else {
     document.documentElement.setAttribute('saved-theme', 'dark');
     localStorage.setItem('theme', 'dark');
     syntaxTheme.href = '{{ $darkSyntax.Permalink }}';
+  }
+  else {
+    document.documentElement.setAttribute('saved-theme', 'light')
+    localStorage.setItem('theme', 'light')
+    syntaxTheme.href = '{{ $lightSyntax.Permalink }}';
   }
 }
 
@@ -33,7 +32,7 @@ window.addEventListener('DOMContentLoaded', () => {
   // listen for toggle
   toggleSwitch.addEventListener('change', switchTheme, false)
 
-  if (currentTheme === 'light') {
+  if (currentTheme === 'dark') {
     toggleSwitch.checked = true
   }
 })
