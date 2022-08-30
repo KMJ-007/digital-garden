@@ -16,8 +16,7 @@ enableSemanticSearch: false
 operandApiKey: "142d3f83-3d6b-4ed3-89e8-57efb874d90f"
 description:
 "Sometimes I think there is no meaning to life, and sometimes life is wonderful thing that can ever happen in the universe"
-page_title:
-  "🤹🏻 Karan is learning"
+page_title: "🤹🏻 Karan is learning"
 links:
   - link_name: Twitter
     link: https://twitter.com/KaranJanthe
