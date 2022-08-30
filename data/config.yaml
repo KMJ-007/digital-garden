@@ -1,4 +1,4 @@
-name: Jacky Zhao
+name: Karan Janthe
 enableToc: true
 openToc: false
 enableLinkPreview: true
@@ -10,17 +10,18 @@ enableSPA: true
 enableFooter: true
 enableContextualBacklinks: true
 enableRecentNotes: false
-enableGitHubEdit: true
+enableGitHubEdit: false
 GitHubLink: https://github.com/jackyzha0/quartz/tree/hugo/content
 enableSemanticSearch: false
-operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
+operandApiKey: "142d3f83-3d6b-4ed3-89e8-57efb874d90f"
 description:
-  Host your second brain and digital garden for free. Quartz features extremely fast full-text search,
-  Wikilink support, backlinks, local graph, tags, and link previews.
+"Sometimes I think there is no meaning to life, and sometimes life is wonderful thing that can ever happen in the universe"
 page_title:
-  "🪴 Quartz 3.3"
+  "🤹🏻 Karan is learning"
 links:
   - link_name: Twitter
-    link: https://twitter.com/_jzhao
+    link: https://twitter.com/KaranJanthe
   - link_name: Github
-    link: https://github.com/jackyzha0
+    link: https://github.com/kmj-007/
+  - link_name: Rick Roll
+    link: https://www.youtube.com/watch?v=dQw4w9WgXcQ

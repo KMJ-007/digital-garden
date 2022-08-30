@@ -1,6 +1,6 @@
-baseURL = "https://quartz.jzhao.xyz/"
+baseURL = "https://kmj-007.github.io/digital-Garden/"
 languageCode = "en-us"
-googleAnalytics = "G-XYFD95KB4J"
+googleAnalytics = "G-HPKKTENXD7"
 relativeURLs = false
 disablePathToLower = true
 ignoreFiles = [
