@@ -1,4 +1,4 @@
-baseURL = "https://kmj-007.github.io/digital-Garden/"
+baseURL = "http://karanislearning.live/"
 languageCode = "en-us"
 googleAnalytics = "G-HPKKTENXD7"
 relativeURLs = false
@@ -18,7 +18,7 @@ enableGitInfo = true
         startLevel = 2
     [markup.highlight]
         noClasses = false
-        anchorLineNos = false
+        anchorLineNos = false       
         codeFences = true
         guessSyntax = true
         hl_Lines = ""
