@@ -11,7 +11,7 @@ enableFooter: true
 enableContextualBacklinks: true
 enableRecentNotes: true
 enableGitHubEdit: false
-GitHubLink: ""
+GitHubLink: "https://github.com/KMJ-007/digital-garden"
 enableSemanticSearch: false
 operandApiKey: "142d3f83-3d6b-4ed3-89e8-57efb874d90f"
 description: Sometimes I think there is no meaning to life,
