@@ -8,8 +8,8 @@ enableCodeBlockCopy: true
 enableCallouts: true
 enableSPA: true
 enableFooter: true
-enableContextualBacklinks: true
-enableRecentNotes: false
+enableContextualBacklinks: false
+enableRecentNotes: true
 enableGitHubEdit: false
 GitHubLink: ""
 enableSemanticSearch: false
@@ -18,9 +18,9 @@ description: Sometimes I think there is no meaning to life,
   and sometimes life is wonderful thing that can ever happen in the universe.
 page_title: "Karan is learning"
 links:
+  - link_name: Home
+    link: /
   - link_name: Twitter
     link: https://twitter.com/KaranJanthe
   - link_name: Github
     link: https://github.com/kmj-007/
-  - link_name: Rick Roll
-    link: https://www.youtube.com/watch?v=dQw4w9WgXcQ
