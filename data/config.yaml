@@ -12,7 +12,7 @@ enableContextualBacklinks: true
 enableRecentNotes: true
 enableGitHubEdit: false
 GitHubLink: "https://github.com/KMJ-007/digital-garden"
-enableSemanticSearch: false
+enableSemanticSearch: true
 operandApiKey: "142d3f83-3d6b-4ed3-89e8-57efb874d90f"
 description: Sometimes I think there is no meaning to life,
   and sometimes life is wonderful thing that can ever happen in the universe.
