@@ -11,12 +11,12 @@ enableFooter: true
 enableContextualBacklinks: true
 enableRecentNotes: false
 enableGitHubEdit: false
-GitHubLink: https://github.com/jackyzha0/quartz/tree/hugo/content
+GitHubLink: ""
 enableSemanticSearch: false
 operandApiKey: "142d3f83-3d6b-4ed3-89e8-57efb874d90f"
 description:
-"Sometimes I think there is no meaning to life,
-and sometimes life is wonderful thing that can ever happen in the universe"
+  Sometimes I think there is no meaning to life,
+  and sometimes life is wonderful thing that can ever happen in the universe.
 page_title: 
 "🤹🏻 Karan is learning"
 links:
