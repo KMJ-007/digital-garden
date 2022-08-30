@@ -1,4 +1,4 @@
-baseURL = "http://karanislearning.live/"
+baseURL = "https://karanislearning.live/"
 languageCode = "en-us"
 googleAnalytics = "G-HPKKTENXD7"
 relativeURLs = false
