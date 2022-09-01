@@ -1,8 +1,6 @@
 ---
 title: "people I look up to"
 date: 2022-09-01
-tags:
-- people
 ---
 
 There are this bunch of guyes, they are very unique and good in their own way, in their own domain, 
