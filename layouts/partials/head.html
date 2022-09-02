@@ -1,13 +1,12 @@
 <!-- set data/config yaml file based on website language -->
 {{ $config := cond (eq $.Site.Language.Lang "en") "config" (printf "config.%s" $.Site.Language.Lang) }}
 {{ $data := index $.Site.Data $config }}
+
 <head>
   <!-- Meta tags -->
   <meta charset="UTF-8" />
-  <meta
-    name="description"
-    content="{{if .IsHome}}{{$data.description | default $.Site.Data.config.description}}{{else}}{{.Summary}}{{end}}"
-  />
+  <meta name="description"
+    content="{{if .IsHome}}{{$data.description | default $.Site.Data.config.description}}{{else}}{{.Summary}}{{end}}" />
   <title>
     {{ if .Title }}{{ .Title }}{{ else }}{{ $data.page_title | default $.Site.Data.config.page_title }}{{
     end }}
@@ -15,13 +14,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <!-- HTML Favicon -->
-  {{ $favicon := $data.favicon  | default $.Site.Data.config.favicon | default (slice (dict "rel" "shortcut icon" "type" "image/png" "href" "icon.png")) }}
+  {{ $favicon := $data.favicon | default $.Site.Data.config.favicon | default (slice (dict "rel" "shortcut icon" "type"
+  "image/png" "href" "icon.png")) }}
   {{ $type := (printf "%T" $favicon) }}
   {{ if eq $type "string" }}
   {{ $favicon | safeHTML }}
   {{ else }}
   {{ range $favicon }}
-  <link rel="{{.rel}}" {{if .type}}type="{{.type}}"{{end}} {{if .sizes}}sizes="{{.sizes}}"{{end}} href="{{$.Site.BaseURL}}/{{.href}}" />
+  <link rel="{{.rel}}" {{if .type}}type="{{.type}}" {{end}} {{if .sizes}}sizes="{{.sizes}}" {{end}}
+    href="{{$.Site.BaseURL}}/{{.href}}" />
   {{- end }}
   {{ end }}
 
@@ -33,24 +34,26 @@
   {{$css = $css | append $scss}}
   {{end}}
   {{if $data.enableCallouts | default $.Site.Data.config.enableCallouts}}
-    {{$scss := resources.Get "styles/_callouts.scss" | resources.ToCSS (dict "outputStyle" "compressed") }}
-    {{$css = $css | append $scss}}
+  {{$scss := resources.Get "styles/_callouts.scss" | resources.ToCSS (dict "outputStyle" "compressed") }}
+  {{$css = $css | append $scss}}
   {{end}}
-  {{$finalCss := $css | resources.Concat "styles.css" | resources.Fingerprint "md5" | resources.Minify  }}
+  {{$finalCss := $css | resources.Concat "styles.css" | resources.Fingerprint "md5" | resources.Minify }}
   <link href="{{$finalCss.Permalink}}" rel="stylesheet" />
 
-  {{$lightSyntax := resources.Get "styles/_light_syntax.scss" | resources.ToCSS (dict "outputStyle" "compressed") | resources.Fingerprint "md5" | resources.Minify  }}
+  {{$lightSyntax := resources.Get "styles/_light_syntax.scss" | resources.ToCSS (dict "outputStyle" "compressed") |
+  resources.Fingerprint "md5" | resources.Minify }}
   <link href="{{$lightSyntax.Permalink}}" rel="stylesheet" id="theme-link">
 
-   <!-- Base scripts -->
+  <!-- Base scripts -->
   {{$scripts := (slice "js/darkmode.js" "js/util.js")}}
   {{range $scripts}}
   {{$scriptname := .}}
-  {{ $s := resources.Get $scriptname | resources.ExecuteAsTemplate $scriptname . | resources.Fingerprint "md5" | resources.Minify }}
+  {{ $s := resources.Get $scriptname | resources.ExecuteAsTemplate $scriptname . | resources.Fingerprint "md5" |
+  resources.Minify }}
   <script src="{{$s.Permalink}}"></script>
   {{end}}
   {{partial "katex.html" .}}
-    
+
   <script src="https://unpkg.com/@floating-ui/core@0.7.3"></script>
   <script src="https://unpkg.com/@floating-ui/dom@0.5.4"></script>
   {{ $popover := resources.Get "js/popover.js" | resources.Fingerprint "md5" |
@@ -72,6 +75,8 @@
   {{ $callouts := resources.Get "js/callouts.js" | resources.Fingerprint "md5" | resources.Minify }}
   <script src="{{$callouts.Permalink}}"></script>
   {{ end }}
+  <script src="{{$background.Permalink}}"></script>
+
 
   <!--  Preload page vars  -->
   {{$linkIndex := resources.Get "indices/linkIndex.json" | resources.Fingerprint
@@ -79,24 +84,24 @@
   "indices/contentIndex.json" | resources.Fingerprint "md5" | resources.Minify
   }}
   <script>
-    const BASE_URL = {{.Site.BaseURL}}
+    const BASE_URL = {{.Site.BaseURL }}
     const fetchData = Promise.all([
-          fetch("{{ $linkIndex.Permalink }}")
-            .then(data => data.json())
-            .then(data => ({
-              index: data.index,
-              links: data.links,
-            })),
-          fetch("{{ $contentIndex.Permalink }}")
-            .then(data => data.json()),
-        ])
-        .then(([{index, links}, content]) => ({
-          index,
-          links,
-          content,
-        }))
+      fetch("{{ $linkIndex.Permalink }}")
+        .then(data => data.json())
+        .then(data => ({
+          index: data.index,
+          links: data.links,
+        })),
+      fetch("{{ $contentIndex.Permalink }}")
+        .then(data => data.json()),
+    ])
+      .then(([{ index, links }, content]) => ({
+        index,
+        links,
+        content,
+      }))
 
-      const render = () => {
+    const render = () => {
       // NOTE: everything within this callback will be executed for every page navigation. This is a good place to put JavaScript that loads or modifies data on the page, adds event listeners, etc. If you are only dealing with basic DOM replacement, use the init function
 
       const siteBaseURL = new URL(BASE_URL);
@@ -104,65 +109,66 @@
       const pathWindow = window.location.pathname;
       const isHome = pathBase == pathWindow;
 
-      {{if $data.enableCodeBlockCopy | default $.Site.Data.config.enableCodeBlockCopy -}}
+      { { if $data.enableCodeBlockCopy | default $.Site.Data.config.enableCodeBlockCopy -} }
       addCopyButtons();
-      {{ end }}
+      { { end } }
 
-      {{if $data.enableSPA | default $.Site.Data.config.enableSPA -}}
+      { { if $data.enableSPA | default $.Site.Data.config.enableSPA -} }
       addTitleToCodeBlocks();
-      {{ end }}
+      { { end } }
 
-      {{if $data.enableCallouts | default $.Site.Data.config.enableCallouts -}}
+      { { if $data.enableCallouts | default $.Site.Data.config.enableCallouts -} }
       addCollapsibleCallouts();
-      {{ end }}
-     
-      {{if $data.enableLinkPreview | default $.Site.Data.config.enableLinkPreview}}
+      { { end } }
+
+      { { if $data.enableLinkPreview | default $.Site.Data.config.enableLinkPreview } }
       initPopover(
-        {{strings.TrimRight "/" .Site.BaseURL }},
-        {{$data.enableContextualBacklinks | default $.Site.Data.config.enableContextualBacklinks}},
-        {{$data.enableLatex | default $.Site.Data.config.enableLatex}}
+        {{ strings.TrimRight "/" .Site.BaseURL }},
+      {{ $data.enableContextualBacklinks | default $.Site.Data.config.enableContextualBacklinks}},
+    { { $data.enableLatex | default $.Site.Data.config.enableLatex } }
       )
-      {{end}}
+    { { end } }
 
-      {{if $data.enableFooter | default $.Site.Data.config.enableFooter}}
-      const footer = document.getElementById("footer")
-      if (footer) {
-        const container = document.getElementById("graph-container")
-        // retry if the graph is not ready
-        if (!container) return requestAnimationFrame(render)
-        // clear the graph in case there is anything within it
-        container.textContent = ""
+    { { if $data.enableFooter | default $.Site.Data.config.enableFooter } }
+    const footer = document.getElementById("footer")
+    if (footer) {
+      const container = document.getElementById("graph-container")
+      // retry if the graph is not ready
+      if (!container) return requestAnimationFrame(render)
+      // clear the graph in case there is anything within it
+      container.textContent = ""
 
-        const drawGlobal = isHome && {{$.Site.Data.graphConfig.enableGlobalGraph}};
-        drawGraph(
-            {{strings.TrimRight "/" .Site.BaseURL}},
-            drawGlobal,
-            {{$.Site.Data.graphConfig.paths}},
-            drawGlobal ? {{$.Site.Data.graphConfig.globalGraph}} : {{$.Site.Data.graphConfig.localGraph}}
-          );
+      const drawGlobal = isHome && {{ $.Site.Data.graphConfig.enableGlobalGraph }
+    };
+    drawGraph(
+      {{ strings.TrimRight "/" .Site.BaseURL }},
+      drawGlobal,
+      {{ $.Site.Data.graphConfig.paths }},
+      drawGlobal ? {{ $.Site.Data.graphConfig.globalGraph }} : {{ $.Site.Data.graphConfig.localGraph }}
+    );
 
         }
-      {{end}}
+    { { end } }
     }
 
     const init = (doc = document) => {
       // NOTE: everything within this callback will be executed for initial page navigation. This is a good place to put JavaScript that only replaces DOM nodes.
-      {{if $data.enableCodeBlockCopy | default $.Site.Data.config.enableCodeBlockCopy -}}
+      { { if $data.enableCodeBlockCopy | default $.Site.Data.config.enableCodeBlockCopy -} }
       addCopyButtons();
-      {{ end }}
+      { { end } }
 
-      {{if $data.enableCodeBlockTitle | default $.Site.Data.config.enableCodeBlockTitle -}}
+      { { if $data.enableCodeBlockTitle | default $.Site.Data.config.enableCodeBlockTitle -} }
       addTitleToCodeBlocks();
-      {{- end -}}
-      {{if $data.enableLatex | default $.Site.Data.config.enableLatex}}
+      { { - end -} }
+      { { if $data.enableLatex | default $.Site.Data.config.enableLatex } }
       renderMathInElement(doc.body, {
         delimiters: [
-          {left: '$$', right: '$$', display: true},
-          {left: '$', right: '$', display: false},
+          { left: '$$', right: '$$', display: true },
+          { left: '$', right: '$', display: false },
         ],
-        throwOnError : false
+        throwOnError: false
       });
-      {{end}}
+      { { end } }
     };
   </script>
   {{if $data.enableSPA | default $.Site.Data.config.enableSPA}}
@@ -176,7 +182,7 @@
   <script>
     window.Million = {
       navigate: (url) => (window.location.href = url),
-      prefetch: () => {},
+      prefetch: () => { },
     }
 
     window.addEventListener("DOMContentLoaded", () => {

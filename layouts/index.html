@@ -3,18 +3,29 @@
 {{ partial "head.html" . }}
 
 <body>
-{{partial "search.html" .}}
-<div class="singlePage">
+  {{partial "search.html" .}}
+  <div class="singlePage">
+    <div id="background-image" class="shown">
+      <noscript>
+        <style>
+          #background-image {
+            opacity: 1;
+          }
+        </style>
+      </noscript>
+      <img src="../static/sky-clouds-large-background-optimized.jpg">
+    </div>
     <!-- Begin actual content -->
     {{partial "header.html" .}}
     <article>
-        {{partial "toc.html" .}}
-        {{partial "textprocessing.html" . }}
-        {{if $.Site.Data.config.enableRecentNotes}}
-          {{partial "recent.html" . }}
-        {{end}}
+      {{partial "toc.html" .}}
+      {{partial "textprocessing.html" . }}
+      {{if $.Site.Data.config.enableRecentNotes}}
+      {{partial "recent.html" . }}
+      {{end}}
     </article>
     {{partial "footerIndex.html" .}}
-</div>
+  </div>
 </body>
+
 </html>
