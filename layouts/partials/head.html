@@ -137,6 +137,7 @@
       container.textContent = ""
 
       const drawGlobal = isHome && {{ $.Site.Data.graphConfig.enableGlobalGraph }
+    }
     };
     drawGraph(
       {{ strings.TrimRight "/" .Site.BaseURL }},
