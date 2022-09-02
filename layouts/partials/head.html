@@ -75,7 +75,6 @@
   {{ $callouts := resources.Get "js/callouts.js" | resources.Fingerprint "md5" | resources.Minify }}
   <script src="{{$callouts.Permalink}}"></script>
   {{ end }}
-  <script src="{{$background.Permalink}}"></script>
 
 
   <!--  Preload page vars  -->
