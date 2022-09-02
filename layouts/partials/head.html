@@ -76,7 +76,6 @@
   <script src="{{$callouts.Permalink}}"></script>
   {{ end }}
 
-
   <!--  Preload page vars  -->
   {{$linkIndex := resources.Get "indices/linkIndex.json" | resources.Fingerprint
   "md5" | resources.Minify | }} {{$contentIndex := resources.Get
