@@ -1,4 +1,10 @@
 ```
+2022-09-0513:46
+```
+- search engine specifcally build for developers,
+hey this is very cool idea, people will need specalise things in the future, specalise things make user experiance more good, and comfertable, so this can trun very well like search engine for writers, singer, and lot of niche things.
+
+```
 2022-09-0413:23
 ```
 - Some decisions are truly blocked on your input: the dating app needs to know if you like the person. In other cases, due to recent advances in machine learning (e.g. OpenAI’s GPT-3 work), we can make autopilots that guess the next step for you.
