@@ -2,7 +2,7 @@
 title: "kama sutra: a tale of love"
 date: 2022-09-05
 tags:
-- love sex
+- love -sex
 ---
 
 Yesterday watched this masterpiece, really loved, I dind't feel any kind of guilt or any regreat after watching it, like it had some sexual scene, but when i watch porn let's say, I usually feel guilt or why did i watched this shit.
