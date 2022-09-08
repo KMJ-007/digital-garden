@@ -6,3 +6,5 @@ tags:
 ---
 
 # ONDC (Open Network for Digital commerce)
+
+![[ondc_search.svg]]
