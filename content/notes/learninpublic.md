@@ -1,8 +1,6 @@
 ---
-title: "learn in public"
+title: "learning in public"
 date: 2022-09-09
-tags:
-- learn in public
 ---
 
 # some of topic that i have in mind to learn 
