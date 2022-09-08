@@ -2,10 +2,13 @@
 title: 🤹‍♂️ Karan is learning
 ---
 
-Hey wonderer, welcome to my garden of thougts, place where I think, I write and enjoy.
+Hello, welcome to my garden of thougts, place where I think, I write and dump things.
 
-You will love to explore around, 
 
 I'm Karan mostly I can be found writing, sleeping, reading, building projects, or going in rabbit hole,
 
-garden is still new, and I am planting seeds so they can grow and make something beautiful like nature.
+You can find my all notes [here](/notes)
+
+You can find them using tags [here](/tags)
+
+If you want to have chat on anything, you can mail me at karanjanthe[at]gmail[dot]com
