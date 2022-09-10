@@ -1,4 +1,13 @@
 ```
+2022-09-1011:13
+```
+- things i have on my plate right now:
+- ONDC 
+- Blockchain based certificate approver
+- Whatsapp bot with bloom ai for shopify
+- completing tech blog about github action
+
+```
 2022-09-0517:10
 ```
 start working on the project when you get the idea, because the motivation will be on the peak, but with time you will loose it, don't worry about this will work or how do i do, i don't know anything, just take the sprint and build the prototype as fast as possible, get the fuck of local host, that's what i want to say

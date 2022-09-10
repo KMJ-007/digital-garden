@@ -20,3 +20,20 @@ tsc(typescript compiler)
 
 
 
+- you can assign return type to the function also
+``` typescript
+function(a:number,b:number):number{
+// do something
+}
+```
+
+- for optional Properties you can decalre them using ?
+``` typescript
+const carfuel? : number
+```
+
+by using optional you can leave without passing it, but if you use or pipe like this, you have must have to pass the varible
+``` Typescript
+const carfuel: number | undefined
+```
+
