@@ -9,7 +9,7 @@ tags:
 ```
 2022-09-1200:29
 ```
-- mainly inspired by this tweet by balaji:https://twitter.com/balajis/status/1568961040687239168?s=48&t=HigASbiwhREK8ioWCILynQ
+- mainly inspired by this tweet by balaji : [tweet](https://twitter.com/balajis/status/1568961040687239168?s=48&t=HigASbiwhREK8ioWCILynQ)
 - The other all kinds of data can be gathered without human intrest or interaction,
 
 We need some thing that only human can classify or need some interaction,
