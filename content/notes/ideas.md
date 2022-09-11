@@ -6,6 +6,18 @@ tags:
 ---
 
 
+```
+2022-09-1200:29
+```
+- mainly inspired by this tweet by balaji:https://twitter.com/balajis/status/1568961040687239168?s=48&t=HigASbiwhREK8ioWCILynQ
+- The other all kinds of data can be gathered without human intrest or interaction,
+
+We need some thing that only human can classify or need some interaction,
+
+
+But i think this is fantastic business model for new kind of ads, especially for AI companies,
+
+Like glib no longer have to hire to validate the results by one human and follow up, go and run this kind of intractable ads to find the results and promote the buisness
 
 ```
 2022-09-0513:46
