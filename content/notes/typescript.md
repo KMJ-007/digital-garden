@@ -37,3 +37,22 @@ by using optional you can leave without passing it, but if you use or pipe like 
 const carfuel: number | undefined
 ```
 
+- You can defined your own custom path in typescript to avoid ugly looking path strucutre
+![[Pasted image 20220913122015.png]]
+you can configure paths in tsconfig.json
+
+
+```javascript
+"compilerOptions": {
+        "baseUrl": "src", // This must be specified if "paths" is.
+         ...
+        "paths": {
+            "@app/*": ["app/*"],
+            "@config/*": ["app/_config/*"],
+            "@environment/*": ["environments/*"],
+            "@shared/*": ["app/_shared/*"],
+            "@helpers/*": ["helpers/*"]
+        },
+        ...
+```
+
