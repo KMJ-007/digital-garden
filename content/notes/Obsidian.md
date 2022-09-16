@@ -10,4 +10,4 @@ good plugins:
 
 - excalidraw
 - obsidian git
-- 
+
