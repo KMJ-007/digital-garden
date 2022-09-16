@@ -5,6 +5,6 @@ tags:
 - build in public
 ---
 
-I am mainting list of things i am building in public:
+I am maintaining list of things i am building in public:
 
 
