@@ -1,3 +1,9 @@
+---
+title: "Internet of Medical Things"
+date: 2022-11-18
+tags:
+- IoMT
+---
 Internet of Medical Things is going to evolve very rapidly in the future, but it will require some time, and right kind of environment/support, we can have robo Surgeon in short time.
 
 when some hospital or  decides to get any IoMT device, they basically look for this indication: 
