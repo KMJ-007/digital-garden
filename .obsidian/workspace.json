@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "5c49dcd289f1c6d3",
+        "id": "f249dfdd7726dbd8",
         "type": "tabs",
         "children": [
           {
-            "id": "1132c3c4b8b0a509",
+            "id": "fc3b0ab0d26f3903",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/notes/Internet of Medical Things.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/notes/Internet of Medical Things.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/notes/Internet of Medical Things.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "content/notes/Internet of Medical Things.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -136,10 +128,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "1132c3c4b8b0a509",
+  "active": "fc3b0ab0d26f3903",
   "lastOpenFiles": [
-    "content/people/Krishna Agarwal.md",
     "content/notes/Internet of Medical Things.md",
+    "content/people/Krishna Agarwal.md",
     "Untitled.md"
   ]
 }

@@ -7,7 +7,7 @@ tags:
 
 >Every javascript is typescript, but every typescript is not javascript
 
-![[typescriptven.png]]
+![[./images/typescriptven.png]]
 
 tsc(typescript compiler)
 
@@ -38,7 +38,9 @@ const carfuel: number | undefined
 ```
 
 - You can defined your own custom path in typescript to avoid ugly looking path strucutre
-![[Pasted image 20220913122015.png]]
+
+![[./images/Pasted image 20220913122015.png]]
+
 you can configure paths in tsconfig.json
 
 
