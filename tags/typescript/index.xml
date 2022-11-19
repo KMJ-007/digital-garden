@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>typescript on</title><link>https://karanislearning.live/tags/typescript/</link><description>Recent content in typescript on</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 02 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://karanislearning.live/tags/typescript/index.xml" rel="self" type="application/rss+xml"/><item><title>notes about typescript</title><link>https://karanislearning.live/notes/typescript/</link><pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate><guid>https://karanislearning.live/notes/typescript/</guid><description>Every javascript is typescript, but every typescript is not javascript
-![[typescriptven.png]]
+![[./images/typescriptven.png]]
 tsc(typescript compiler)
 [[tsconfig.json]]
 [[package.</description></item></channel></rss>
