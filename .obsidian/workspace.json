@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "f249dfdd7726dbd8",
+        "id": "4ae10285615f8b1c",
         "type": "tabs",
         "children": [
           {
-            "id": "fc3b0ab0d26f3903",
+            "id": "222091547fc0f3f4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "content/notes/Javascript.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "javascript",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "content/notes/Javascript.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "content/notes/Javascript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "content/notes/Javascript.md"
+              }
             }
           }
         ]
@@ -128,8 +137,13 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "fc3b0ab0d26f3903",
+  "active": "222091547fc0f3f4",
   "lastOpenFiles": [
+    "content/private/randome dump.md",
+    "content/private/preview changes.md",
+    "content/private/obsidian.md",
+    "content/private/private-note.md",
+    "content/private/why do you care about them?.md",
     "content/notes/Internet of Medical Things.md",
     "content/people/Krishna Agarwal.md",
     "Untitled.md"
