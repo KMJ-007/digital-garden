@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/notes/Javascript.md",
+                "file": "content/people/Krishna Agarwal.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/notes/Javascript.md",
+                "file": "content/people/Krishna Agarwal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/notes/Javascript.md",
+                "file": "content/people/Krishna Agarwal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/notes/Javascript.md"
+                "file": "content/people/Krishna Agarwal.md"
               }
             }
           }
@@ -139,13 +138,15 @@
   },
   "active": "222091547fc0f3f4",
   "lastOpenFiles": [
+    "content/people/Sanatan Dinda.md",
+    "content/people/Krishna Agarwal.md",
+    "content/notes/Javascript.md",
     "content/private/randome dump.md",
     "content/private/preview changes.md",
     "content/private/obsidian.md",
     "content/private/private-note.md",
     "content/private/why do you care about them?.md",
     "content/notes/Internet of Medical Things.md",
-    "content/people/Krishna Agarwal.md",
     "Untitled.md"
   ]
 }
