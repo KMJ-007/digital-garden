@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "4ae10285615f8b1c",
+        "id": "e04650159903f466",
         "type": "tabs",
         "children": [
           {
-            "id": "222091547fc0f3f4",
+            "id": "3c3213b998e9b6ac",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/people/Krishna Agarwal.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/people/Krishna Agarwal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/people/Krishna Agarwal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "content/people/Krishna Agarwal.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -136,17 +128,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "222091547fc0f3f4",
+  "active": "3c3213b998e9b6ac",
   "lastOpenFiles": [
+    "content/notes/computer science.md",
+    "content/notes/Courses.md",
+    "Untitled.md",
+    "tolearntopics.png",
     "content/people/Sanatan Dinda.md",
     "content/people/Krishna Agarwal.md",
     "content/notes/Javascript.md",
     "content/private/randome dump.md",
     "content/private/preview changes.md",
-    "content/private/obsidian.md",
-    "content/private/private-note.md",
-    "content/private/why do you care about them?.md",
-    "content/notes/Internet of Medical Things.md",
-    "Untitled.md"
+    "content/private/obsidian.md"
   ]
 }
